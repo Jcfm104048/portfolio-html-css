@@ -1,4 +1,4 @@
-# Portifólio – HTML e CSS
+# Portfólio – HTML e CSS
 
 Olá! 👋  
 Este repositório reúne projetos desenvolvidos durante meus estudos em HTML e CSS, com foco em estruturação de conteúdo, boas práticas e organização de código.
@@ -40,4 +40,5 @@ Projeto desenvolvido para praticar a estruturação de conteúdo em HTML.
 
 ## 📌 Observação
 Os projetos deste repositório têm fins educacionais e fazem parte do meu processo de aprendizado em desenvolvimento web.
+
 
