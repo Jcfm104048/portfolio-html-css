@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>Mini-Projeto Multimídia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mini-Projeto Multimídia</h1>
+        <p>Exemplos de imagens, vídeo, áudio e conteúdo incorporado </p>
+    </header>
+    <main>
+        <section>
+            <h2>Imagens Responsivas</h2>
+            <figure>
+                <img src="img/Paisagem-800.jpg"
+                srcset="img/Paisagem-400.png 400w,
+                img/Paisagem-800.jpg 800w,
+                img/Paisagem-1200.png 1200w"
+                 sizes="(max-width: 400px) 200px, (max-width: 600px) 400px, 1200px" alt="Paisagem com cachoeira e vegetação" loading="lazy">
+                <figcaption>Paisagem natural com cachoeira</figcaption>
+            </figure>
+        </section>
+
+        <section class="video-section">
+            <h2>Vídeo</h2>
+            <video controls poster="img/capa-video.png" aria-label="Vídeo demostrativo"> 
+                <source src="video/video.mp4" type="video/mp4">
+                <track src="legendas.pt.vtt" kind="subtitles" srclang="pt" label="Português" default>
+                Seu navegador não suporta vídeo HTML5.
+            </video>
+        </section>
+
+        <section class="audio-section">
+            <h2>Áudio</h2>
+            <audio controls aria-label="Áudio demostrativo">
+                <source src="audio/audio.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio HTML5.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Documento PDF</h2>
+            <object data="252966.pdf" type="application/pdf" width="100%" height="400">
+                <p>Seu navegador não suporta PDF.
+                    <a href="252966.pdf">Baixar PDF</a>
+                </p>
+            </object>
+        </section>
+    </main>
+    <footer>
+        <p>Mini-projeto desenvolvido para estudo e portifólio</p>
+    </footer>
+</body>
+</html>

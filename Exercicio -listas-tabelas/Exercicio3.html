@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diversos tipos de listas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Diversos tipos de listas</h1>
+    </header>
+    <main class="main">
+        <section class="section">
+            <h2>Lista Não ordenada de Frutas</h2>
+            <ul class="lista-frutas">
+                <li>Mamão
+                    <ul>
+                        <li> Papai</li>
+                        <li>Formosa</li>
+                    </ul>
+                </li>
+                <li>Abacate</li>
+                <li>Maçã
+                    <ul>
+                        <li>Fuji</li>
+                        <li>Gala</li>
+                        <li>Verde</li>
+                    </ul>
+                </li>
+                <li>Banana</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Passos para fazer um chá</h2>
+            <ol class="passos-chá">
+               <li>Colocar água pra ferver</li>
+               <li>Depois coloque o chá na água quente</li>
+               <li>Coloque o chá num recipiente</li>
+               <li>Deixe o chá tapado e descansar por alguns minutos</li>
+               <li>Após alguns minutos sirva o chá</li>
+            </ol>
+        </section>
+        <section class="section">
+            <h2>Passos do chá invertido</h2>
+            <ol type="1" reversed>
+                <li>Colocar água pra ferver</li>
+                <li>Depois coloque o chá na água quente</li>
+                <li>Coloque o chá num recipiente</li>
+                <li>Deixe o chá tapado e descansar por alguns minitos</li>
+                <li>Após alguns minutos sirva o chá</li>
+            </ol>
+        </section>
+        <section class="section">
+            <h2>Definições</h2>
+            <article>
+                <h3>Chá</h3>
+            <dl>
+                <dt>Chá</dt>
+                <dd>Uma bebida preparada com folhas secas de plantas, ervas ou flores.</dd>
+                <dt>Água quente</dt>
+                <dd>Água aquecida a uma temperatura adequada para preparar o chá.</dd>
+            </dl>
+            </article>
+            <article>
+            <h2>Temos web</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguagem de marcação usada para criar páginas web.</dd>
+                <dt>CSS</dt>
+                <dd>Linguagem de estilo usada para formatar páginas web.</dd>
+                <dt>JavaScript</dt>
+                <dd>Linguagem de programação usada para adicionar interatividade às páginas web.</dd>
+            </dl>
+            </article>
+        </section>
+    </main>
+    <div class="container">
+        <table class="tabela-horarios">
+            <caption>Horários de aula</caption>
+            <colgroup>
+                <col class="col horario"> 
+                <col class="Destaque">
+            </colgroup>
+             <thead class="thead">
+              <tr >
+                <th scope="col">Horário</th>
+                <th scope="col">Segunda-feira</th>
+                <th scope="col">Terça-feira</th>
+                <th scope="col">Quarta-feira</th>
+                <th scope="col">Quinta-feira</th>
+                <th scope="col">Sexta-feira</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">08:00 - 09:00</th>
+                <td>Matemática</td>
+                <td>Física</td>
+                <td>Química</td>
+                <td>Biologia</td>
+                <td>Educação Física</td>
+              </tr>
+              <tr>
+                <th scope="row">09:00 - 10:00</th>
+                <td>Língua Portuguesa</td>
+                <td>História</td>
+                <td>Geografia</td>
+                <td>Inglês</td>
+                <td>Artes</td>
+              </tr>
+              <tr>
+                <th scope="row">10:00 - 11:00</th>
+                <td>Física</td>
+                <td>Educação Física</td>
+                <td>Matemática</td>
+                <td>Literatura</td>
+                <td>Filosofia</td>
+              </tr>
+              <tr>
+                <th scope="row">11:00 - 12:00</th>
+                <td>Português</td>
+                <td>Geografia</td>
+                <td>História</td>
+                <td>Inglês</td>
+                <td>Música</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th scope="row">Total de horas</th> 
+                <td>4 horas</td>
+                <td>4 horas</td>
+                <td>4 horas</td>
+                <td>4 horas</td>
+                <td>4 horas</td>
+              </tr>
+            </tfoot>   
+        </table>
+    </div>
+</body>
+</html>
